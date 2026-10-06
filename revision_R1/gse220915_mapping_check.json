@@ -1,0 +1,82 @@
+{
+  "gse220915_projection": {
+    "corrected": {
+      "label": "corrected mapping (41/41)",
+      "n_genes": 41,
+      "missing": [],
+      "KW_H": 68.91,
+      "KW_P": 3.854989547132837e-14,
+      "ASyS_vs_NT": {
+        "cliffs_delta": 0.929,
+        "auc": 0.965,
+        "P": 5.6284990274068006e-08
+      },
+      "ASyS_vs_IMNM": {
+        "cliffs_delta": 0.556,
+        "auc": 0.778,
+        "P": 0.0004570669137737942
+      },
+      "ASyS_vs_DM": {
+        "cliffs_delta": 0.162,
+        "auc": 0.581,
+        "P": 0.3247407662304933
+      }
+    },
+    "legacy": {
+      "label": "legacy mygene mapping (38/41)",
+      "n_genes": 38,
+      "missing": [],
+      "KW_H": 68.0,
+      "KW_P": 5.986628934274338e-14,
+      "ASyS_vs_NT": {
+        "cliffs_delta": 0.926,
+        "auc": 0.963,
+        "P": 6.284606687846296e-08
+      },
+      "ASyS_vs_IMNM": {
+        "cliffs_delta": 0.56,
+        "auc": 0.78,
+        "P": 0.0004143968790619196
+      },
+      "ASyS_vs_DM": {
+        "cliffs_delta": 0.177,
+        "auc": 0.588,
+        "P": 0.28111816445092475
+      }
+    }
+  },
+  "two_cohort_pooled_corrected": {
+    "DM": {
+      "d": 2.08,
+      "lo": 1.31,
+      "hi": 2.84,
+      "I2_pct": 44
+    },
+    "IBM": {
+      "d": 2.24,
+      "lo": 1.68,
+      "hi": 2.8,
+      "I2_pct": 0
+    },
+    "IMNM": {
+      "d": 1.58,
+      "lo": 1.11,
+      "hi": 2.05,
+      "I2_pct": 3
+    }
+  },
+  "published_two_cohort_legacy": {
+    "DM": {
+      "d": 2.19,
+      "I2_pct": 62
+    },
+    "IBM": {
+      "d": 2.19,
+      "I2_pct": 0
+    },
+    "IMNM": {
+      "d": 1.66,
+      "I2_pct": 25
+    }
+  }
+}

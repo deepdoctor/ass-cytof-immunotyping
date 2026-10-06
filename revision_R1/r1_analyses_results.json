@@ -1,0 +1,162 @@
+{
+  "primary_axis": {
+    "PC1_var_pct": 35.8,
+    "scores": {
+      "P08": 7.9,
+      "P10": 6.78,
+      "P09": 3.33,
+      "P06": 1.43,
+      "P07": 1.22,
+      "P03": -2.95,
+      "P05": -3.52,
+      "P01": -3.97,
+      "P02": -4.5,
+      "P04": -5.71
+    }
+  },
+  "harmony": {
+    "n_cells_h5ad": 98500,
+    "n_cells_after_artefact_drop": 98319,
+    "harmony_input": "first 30 PCs of the standardised 42-marker matrix",
+    "harmony_output_dims": 30,
+    "expression_matrix_is_harmony_corrected": false,
+    "max_abs_dev_ST1_vs_recomputed_stored": 2.9790496847148518e-08,
+    "unscaled_arcsinh_axis": {
+      "PC1_var_pct": 35.8,
+      "pearson_r_vs_primary": 0.9998,
+      "spearman_rho_vs_primary": 1.0,
+      "identical_rank_order": true,
+      "rank_order": [
+        "P08",
+        "P10",
+        "P09",
+        "P06",
+        "P07",
+        "P03",
+        "P05",
+        "P01",
+        "P02",
+        "P04"
+      ],
+      "primary_rank_order": [
+        "P08",
+        "P10",
+        "P09",
+        "P06",
+        "P07",
+        "P03",
+        "P05",
+        "P01",
+        "P02",
+        "P04"
+      ],
+      "serology_KW_H": 0.6,
+      "serology_KW_P": 0.9,
+      "antiJo1_span_pct": 92
+    },
+    "feature_r_stored_vs_arcsinh_min": 0.9378,
+    "feature_r_stored_vs_arcsinh_median": 1.0
+  },
+  "serology": {
+    "KW_H": 0.6,
+    "KW_P": 0.9,
+    "eta2": 0.119,
+    "epsilon2_rank": 0.067,
+    "eta2_CI95": [
+      0.0,
+      0.314
+    ],
+    "eta2_CI90": [
+      0.0,
+      0.222
+    ],
+    "exact_permutation_P": 0.825,
+    "n_permutations": 25200,
+    "observed_eta2_percentile_of_null": 17.5,
+    "within_class_range_pct_of_axis": {
+      "Jo-1": 91,
+      "PL-12": 40,
+      "EJ": 76,
+      "PL-7": 66
+    },
+    "KW_power_by_true_eta2": {
+      "one class shifted (Jo-1 vs rest)": {
+        "0.0": 0.003,
+        "0.1": 0.006,
+        "0.2": 0.017,
+        "0.3": 0.031,
+        "0.4": 0.039,
+        "0.5": 0.066,
+        "0.6": 0.076,
+        "0.7": 0.09,
+        "0.8": 0.103,
+        "0.9": 0.097
+      },
+      "equally spaced class means": {
+        "0.0": 0.004,
+        "0.1": 0.008,
+        "0.2": 0.018,
+        "0.3": 0.026,
+        "0.4": 0.045,
+        "0.5": 0.08,
+        "0.6": 0.136,
+        "0.7": 0.254,
+        "0.8": 0.498,
+        "0.9": 0.892
+      }
+    },
+    "min_eta2_for_80pct_power": {
+      "one class shifted (Jo-1 vs rest)": null,
+      "equally spaced class means": 0.9
+    },
+    "eta2_regions_on_axis": 0.854
+  },
+  "IT3_transcriptomic": {
+    "n_genes": 15,
+    "detected_GSE220915": 15,
+    "missing": []
+  },
+  "pseudotime_fig6": {
+    "n_T_cells": 40571,
+    "cell_types": [
+      "CD4 Central Memory T",
+      "CD4 Effector Memory T",
+      "CD4 Naive T",
+      "CD4 Th1-like",
+      "CD8 Effector T",
+      "CD8 Naive T"
+    ],
+    "cell_level_median_dpt": {
+      "IT1": 0.4364,
+      "IT2": 0.2734,
+      "IT3": 0.2752
+    },
+    "cell_level_KW_H": 1998.8,
+    "share_in_Q5": {
+      "IT1": 0.2745,
+      "IT2": 0.1899,
+      "IT3": 0.145
+    },
+    "share_CD8eff_plus_Th1": {
+      "IT1": 0.5326,
+      "IT2": 0.3168,
+      "IT3": 0.32
+    },
+    "median_dpt_within_CD8_effector": {
+      "IT1": 0.6079,
+      "IT2": 0.6033,
+      "IT3": 0.596
+    },
+    "patient_level_median_of_medians": {
+      "IT1": 0.3734,
+      "IT2": 0.2753,
+      "IT3": 0.2874
+    },
+    "patient_level_KW_H": 1.18,
+    "patient_level_KW_P": 0.554,
+    "spearman_axis_vs_patient_median_dpt": [
+      0.261,
+      0.467
+    ]
+  }
+}

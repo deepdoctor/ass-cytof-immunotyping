@@ -1,0 +1,68 @@
+# ── Patient data: NEVER commit ─────────────────────────────────────────
+*.fcs
+*.h5ad
+*.h5
+data/
+raw_data/
+
+# ── External validation data downloads ──────────────────────────────────
+validation/
+validation_extra/
+validation_pbmc/
+GSE*.txt
+GSE*.gz
+GSE*.csv
+*.soft
+*.gpl
+
+# ── Large analysis outputs (kept locally only) ──────────────────────────
+cytof_output/
+cytof_output_v3/
+cytof_output_nature/
+
+# ── Manuscript working files (not for code repo) ───────────────────────
+*.docx
+*.zip
+files\ 3/
+files/
+
+# ── Python ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.ipynb_checkpoints/
+
+# ── Environments ────────────────────────────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ── IDE / OS ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Claude / agent state ────────────────────────────────────────────────
+.claude/
